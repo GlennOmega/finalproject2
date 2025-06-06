@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nature Explorer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="Nature Explorer Logo.png" alt="Nature Explorer Logo" />
+      <h1>Welcome to Nature Explorer</h1>
+      <p>By: Glenn Omega</p>
+    </header>
+
+    <main id="main-content">
+      <section class="content">
+        <h2>Discover the Beauty of Nature</h2>
+        <p>
+          From mountain tops to forest trails, explore the wonders of the world
+          around you.
+        </p>
+        <img src="forest.jpg" alt="Nature Scenery" width="100%" />
+      </section>
+
+      <section class="video">
+        <h2>Watch this inspiring nature video</h2>
+        <iframe
+          src="https://www.youtube.com/embed/1ZYbU82GVz4"
+          title="Relaxing Nature Video"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section class="interactive">
+        <h3>Tell us your favorite nature spot</h3>
+        <input type="text" id="userInput" placeholder="Type here..." />
+        <button onclick="showResponse()">Submit</button>
+        <p id="output"></p>
+      </section>
+    </main>
+
+    <footer>
+      &copy; 2025 Nature Explorer, By: Glenn Omega. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

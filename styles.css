@@ -1,0 +1,85 @@
+Body {
+    background-color: burlywood;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {     
+    background-color:  rgb(173, 147, 147);
+    width: fit-content;
+    margin: auto;
+    padding: 15px;
+    border-radius: 5px;   
+}
+
+.interactive h3 {     
+    background-color:  rgb(173, 147, 147);
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;   
+}
+
+.video h2 {     
+    background-color:  rgb(173, 147, 147);
+    width: fit-content;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;   
+}
+
+.content h2 {     
+    background-color: rgb(173, 147, 147);
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;   
+}
+
+
+
+
+
+header img {
+    height: 150px; 
+    width: 150px; 
+    object-fit: contain;
+}
+
+header, .content {
+    text-align: center;
+    margin-top: 0;
+}
+
+.video, .interactive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.video iframe {
+  width: 800px;
+  height: 450px;
+  border-radius: 12px;
+}
+
+.interactive input, .interactive button {
+  margin: 8px 0;
+}
+
+footer {   
+    background-color:  rgb(173, 147, 147);
+    width: fit-content;
+    margin: auto;
+    padding: 15px;
+    border-radius: 5px;
+    }
+
