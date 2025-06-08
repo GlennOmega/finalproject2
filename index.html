@@ -3,19 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nature Explorer</title>
+    <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <img src="Nature Explorer Logo.png" alt="Nature Explorer Logo" />
-      <h1>Welcome to Nature Explorer</h1>
-      <p>By: Glenn Omega</p>
-    </header>
+    <!-- TOGGLE SECTION -->
+    <nav class="navbar">
+      <!-- Button to toggle menu -->
+      <button id="menuButton">☰</button>
 
+      <!-- Logo in the center -->
+      <!-- <div class="navbar-logo">
+        <img src="Nature Explorer Logo.png" alt="Logo" />
+      </div> -->
+
+      <!-- The menu -->
+      <ul id="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- MAIN SECTION -->
     <main id="main-content">
       <section class="content">
-        <h2>Discover the Beauty of Nature</h2>
+        <!-- ...existing code... -->
+        <h2 id="natureTitle">Discover the Beauty of Nature. Pls Click Here!</h2>
+        <!-- ...existing code... -->
+
         <p>
           From mountain tops to forest trails, explore the wonders of the world
           around you.
@@ -33,12 +50,41 @@
       </section>
 
       <section class="interactive">
-        <h3>Tell us your favorite nature spot</h3>
+        <h3>Please Enter Your Name Here!</h3>
         <input type="text" id="userInput" placeholder="Type here..." />
-        <button onclick="showResponse()">Submit</button>
+        <button onclick="showResponse()">To Greet You</button>
         <p id="output"></p>
       </section>
     </main>
+
+    <!-- INCREMENT AND DECREMENT -->
+    <div class="ticket-counter">
+      <h2>Buy Tickets Now</h2>
+      <div class="counter-display" id="ticketCount">0</div>
+      <div class="counter-controls">
+        <button id="decrementButton">-</button>
+        <button id="incrementButton">+</button>
+      </div>
+      <div>
+        <span id="ticketMessage"
+          >Select the number of tickets you want to buy.</span
+        >
+      </div>
+    </div>
+
+    <!-- RESET SECTION -->
+    <div class="container">
+      <h1 id="headding">Reset Here</h1>
+      <button id="resetButton">Reset</button>
+    </div>
+
+    <!-- ADD PARAGRAPH SECTION -->
+
+    <div class="add-paragraph-section">
+      <button id="addParagraphButton">Thank You!</button>
+      <br /><br />
+      <div id="paragraphContainer"></div>
+    </div>
 
     <footer>
       &copy; 2025 Nature Explorer, By: Glenn Omega. All rights reserved.
